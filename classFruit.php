@@ -21,9 +21,14 @@
 
     // Set name value object
     $apple->set_name('Apple <br>');
-    $durian->set_name('Durian');
+    $durian->set_name('Durian <br>');
 
     // Get value name object
     echo $apple->get_name(); 
     echo $durian->get_name();
+
+    // Change value property outside class
+    $apple->name = "Apel Dari Luar Kelas";
+
+    echo $apple->name;
 ?>

@@ -3,7 +3,7 @@
         // Property
         public $name;
         public $color;
-
+        
         // Method
         function set_name($name) {
             $this->name = $name;

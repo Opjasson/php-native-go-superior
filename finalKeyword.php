@@ -9,6 +9,6 @@
 
     // error code because extend from final class
     class Inherit extends Fruit {
-
+      
     }
 ?>

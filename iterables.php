@@ -8,4 +8,13 @@
     $arr = ["A", "B", "C", "D"];
 
     printIterable($arr);
+
+    function getIterable():iterable {
+        return ["A", "B", "C", "D"];
+    }
+
+    $myIterable = getIterable();
+    foreach ($myIterable as $iterable) {
+        echo $iterable;
+    }
 ?>
